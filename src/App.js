@@ -1,13 +1,8 @@
-// import Home from "./pages/home/Home";
-import Kontak from "./pages/kontak/Kontak";
+import Home from "./pages/Home/home";
 import React from "react";
 
 function App() {
-
-  return (
-    // <Home/>
-    <Kontak/>
-  );
+  return <Home />;
 }
 
 export default App;

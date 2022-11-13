@@ -1,24 +1,25 @@
-import React from 'react'
-import Content from '../../components/Content/Content';
-import Footer from '../../components/footer/Footer';
-import Hero from '../../components/hero/Hero';
-import Navbar from '../../components/navbar/Navbar';
+import React from "react";
+import Content from "../../components/Content/content";
+import Footer from "../../components/Footer/footer";
+import Hero from "../../components/Hero/hero";
+import Navbar from "../../components/Navbar/navbar";
 import "./home.scss";
-import Card from '../../components/card/Card';
-import Accordion from '../../components/Accordion/SimpleAccordion';
+import Card from "../../components/Card/card";
+import Accordion from "../../components/Accordion/simpleAccordion";
+
 const Home = () => {
   return (
     <div className="container">
-        <Navbar/>
-        <div className="footer">
-        <Hero/>
-        <Content/>
-        <Card/>
-        <Accordion/>
-        <Footer/>
-        </div>
+      <Navbar />
+      <Hero />
+      <Content />
+      <Card />
+      <Accordion />
+      <div className="footer">
+        <Footer />
+      </div>
     </div>
-  )
-}
+  );
+};
 
 export default Home;
