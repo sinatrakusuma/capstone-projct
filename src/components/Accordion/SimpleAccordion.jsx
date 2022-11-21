@@ -36,6 +36,12 @@ function SimpleAccordion() {
         variant="h3"
         sx={{ fontSize: "35px", fontWeight: "bold", color: "#000339", my: 3 }}
       >
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, neque?
+      </Typography>
+      <Typography
+        variant="h3"
+        sx={{ fontSize: "35px", fontWeight: "bold", color: "#000339", my: 3 }}
+      >
         OUR DEVELOPERS TEAM
       </Typography>
 
