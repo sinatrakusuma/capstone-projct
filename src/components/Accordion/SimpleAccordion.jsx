@@ -34,9 +34,9 @@ function SimpleAccordion() {
 
       <Typography
         variant="h3"
-        sx={{ fontSize: "35px", fontWeight: "bold", color: "#000339", my: 3 }}
+        sx={{ fontSize: "35px", fontWeight: "bold", color: "#000339", my: 4 }}
       >
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, neque?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, neque? Halo
       </Typography>
       <Typography
         variant="h3"
